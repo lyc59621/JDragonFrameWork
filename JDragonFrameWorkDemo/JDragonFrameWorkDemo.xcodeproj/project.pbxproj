@@ -1,0 +1,690 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1224DD271CF6D59D005A488C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1224DD261CF6D59D005A488C /* main.m */; };
+		1224DD2A1CF6D59D005A488C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1224DD291CF6D59D005A488C /* AppDelegate.m */; };
+		1224DD331CF6D59D005A488C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1224DD311CF6D59D005A488C /* Main.storyboard */; };
+		1224DD351CF6D59D005A488C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1224DD341CF6D59D005A488C /* Assets.xcassets */; };
+		1224DD381CF6D59D005A488C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1224DD361CF6D59D005A488C /* LaunchScreen.storyboard */; };
+		1224DD431CF6D59D005A488C /* JDragonFrameWorkDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1224DD421CF6D59D005A488C /* JDragonFrameWorkDemoTests.m */; };
+		1224DD4E1CF6D59D005A488C /* JDragonFrameWorkDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1224DD4D1CF6D59D005A488C /* JDragonFrameWorkDemoUITests.m */; };
+		1224DD621CF6D6B5005A488C /* JDragonFrameWork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1224DD611CF6D6B5005A488C /* JDragonFrameWork.framework */; };
+		12A51BC41CF6DD01003C1CBD /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12A51BC01CF6DD01003C1CBD /* FirstViewController.m */; };
+		12A51BC51CF6DD01003C1CBD /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12A51BC31CF6DD01003C1CBD /* SecondViewController.m */; };
+		12A51BC91CF6DD2F003C1CBD /* JDBannerPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 12A51BC71CF6DD2F003C1CBD /* JDBannerPage.m */; };
+		12A51BCA1CF6DD2F003C1CBD /* JDBannerPage.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12A51BC81CF6DD2F003C1CBD /* JDBannerPage.xib */; };
+		12A51BCE1CF6E15E003C1CBD /* JDCustompage.m in Sources */ = {isa = PBXBuildFile; fileRef = 12A51BCC1CF6E15E003C1CBD /* JDCustompage.m */; };
+		12A51BCF1CF6E15E003C1CBD /* JDCustompage.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12A51BCD1CF6E15E003C1CBD /* JDCustompage.xib */; };
+		12A51BD31CF6E5A9003C1CBD /* JDHeaderBtnPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 12A51BD11CF6E5A9003C1CBD /* JDHeaderBtnPage.m */; };
+		12A51BD41CF6E5A9003C1CBD /* JDHeaderBtnPage.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12A51BD21CF6E5A9003C1CBD /* JDHeaderBtnPage.xib */; };
+		12E91A541CF6F264008D3503 /* JDTypeButtonPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 12E91A521CF6F264008D3503 /* JDTypeButtonPage.m */; };
+		12E91A551CF6F264008D3503 /* JDTypeButtonPage.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12E91A531CF6F264008D3503 /* JDTypeButtonPage.xib */; };
+		12E91A591CF6F3BC008D3503 /* JDWindowContentPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 12E91A571CF6F3BC008D3503 /* JDWindowContentPage.m */; };
+		12E91A5A1CF6F3BC008D3503 /* JDWindowContentPage.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12E91A581CF6F3BC008D3503 /* JDWindowContentPage.xib */; };
+		12E91A5E1CF6F659008D3503 /* JDSwitchPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 12E91A5C1CF6F659008D3503 /* JDSwitchPage.m */; };
+		12E91A5F1CF6F659008D3503 /* JDSwitchPage.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12E91A5D1CF6F659008D3503 /* JDSwitchPage.xib */; };
+		12E91A631CF6F7D0008D3503 /* JDInPutBarPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 12E91A611CF6F7D0008D3503 /* JDInPutBarPage.m */; };
+		12E91A641CF6F7D0008D3503 /* JDInPutBarPage.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12E91A621CF6F7D0008D3503 /* JDInPutBarPage.xib */; };
+		12E91A681CF6F988008D3503 /* JDAlertViewPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 12E91A661CF6F988008D3503 /* JDAlertViewPage.m */; };
+		12E91A691CF6F988008D3503 /* JDAlertViewPage.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12E91A671CF6F988008D3503 /* JDAlertViewPage.xib */; };
+		12E91A6D1CF6FB7D008D3503 /* JDStarViewPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 12E91A6B1CF6FB7D008D3503 /* JDStarViewPage.m */; };
+		12E91A6E1CF6FB7D008D3503 /* JDStarViewPage.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12E91A6C1CF6FB7D008D3503 /* JDStarViewPage.xib */; };
+		12E91A721CF6FD8B008D3503 /* JDFaceViewPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 12E91A701CF6FD8B008D3503 /* JDFaceViewPage.m */; };
+		12E91A731CF6FD8B008D3503 /* JDFaceViewPage.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12E91A711CF6FD8B008D3503 /* JDFaceViewPage.xib */; };
+		12E91A771CF6FFD1008D3503 /* JDSliderViewPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 12E91A751CF6FFD1008D3503 /* JDSliderViewPage.m */; };
+		12E91A781CF6FFD1008D3503 /* JDSliderViewPage.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12E91A761CF6FFD1008D3503 /* JDSliderViewPage.xib */; };
+		12E91A7C1CF6FFFF008D3503 /* JDExpandingTextViewPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 12E91A7A1CF6FFFF008D3503 /* JDExpandingTextViewPage.m */; };
+		12E91A7D1CF6FFFF008D3503 /* JDExpandingTextViewPage.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12E91A7B1CF6FFFF008D3503 /* JDExpandingTextViewPage.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1224DD3F1CF6D59D005A488C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1224DD1A1CF6D59D005A488C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1224DD211CF6D59D005A488C;
+			remoteInfo = JDragonFrameWorkDemo;
+		};
+		1224DD4A1CF6D59D005A488C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1224DD1A1CF6D59D005A488C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1224DD211CF6D59D005A488C;
+			remoteInfo = JDragonFrameWorkDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1224DD221CF6D59D005A488C /* JDragonFrameWorkDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JDragonFrameWorkDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1224DD261CF6D59D005A488C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1224DD281CF6D59D005A488C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1224DD291CF6D59D005A488C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1224DD321CF6D59D005A488C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1224DD341CF6D59D005A488C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1224DD371CF6D59D005A488C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1224DD391CF6D59D005A488C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1224DD3E1CF6D59D005A488C /* JDragonFrameWorkDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JDragonFrameWorkDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1224DD421CF6D59D005A488C /* JDragonFrameWorkDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JDragonFrameWorkDemoTests.m; sourceTree = "<group>"; };
+		1224DD441CF6D59D005A488C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1224DD491CF6D59D005A488C /* JDragonFrameWorkDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JDragonFrameWorkDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1224DD4D1CF6D59D005A488C /* JDragonFrameWorkDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JDragonFrameWorkDemoUITests.m; sourceTree = "<group>"; };
+		1224DD4F1CF6D59D005A488C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1224DD611CF6D6B5005A488C /* JDragonFrameWork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = JDragonFrameWork.framework; sourceTree = "<group>"; };
+		1224DD631CF6D7AF005A488C /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		12A51BBF1CF6DD01003C1CBD /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		12A51BC01CF6DD01003C1CBD /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		12A51BC21CF6DD01003C1CBD /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		12A51BC31CF6DD01003C1CBD /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		12A51BC61CF6DD2F003C1CBD /* JDBannerPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDBannerPage.h; sourceTree = "<group>"; };
+		12A51BC71CF6DD2F003C1CBD /* JDBannerPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDBannerPage.m; sourceTree = "<group>"; };
+		12A51BC81CF6DD2F003C1CBD /* JDBannerPage.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JDBannerPage.xib; sourceTree = "<group>"; };
+		12A51BCB1CF6E15E003C1CBD /* JDCustompage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDCustompage.h; sourceTree = "<group>"; };
+		12A51BCC1CF6E15E003C1CBD /* JDCustompage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDCustompage.m; sourceTree = "<group>"; };
+		12A51BCD1CF6E15E003C1CBD /* JDCustompage.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JDCustompage.xib; sourceTree = "<group>"; };
+		12A51BD01CF6E5A9003C1CBD /* JDHeaderBtnPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDHeaderBtnPage.h; sourceTree = "<group>"; };
+		12A51BD11CF6E5A9003C1CBD /* JDHeaderBtnPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDHeaderBtnPage.m; sourceTree = "<group>"; };
+		12A51BD21CF6E5A9003C1CBD /* JDHeaderBtnPage.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JDHeaderBtnPage.xib; sourceTree = "<group>"; };
+		12E91A511CF6F264008D3503 /* JDTypeButtonPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDTypeButtonPage.h; sourceTree = "<group>"; };
+		12E91A521CF6F264008D3503 /* JDTypeButtonPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDTypeButtonPage.m; sourceTree = "<group>"; };
+		12E91A531CF6F264008D3503 /* JDTypeButtonPage.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JDTypeButtonPage.xib; sourceTree = "<group>"; };
+		12E91A561CF6F3BC008D3503 /* JDWindowContentPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDWindowContentPage.h; sourceTree = "<group>"; };
+		12E91A571CF6F3BC008D3503 /* JDWindowContentPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDWindowContentPage.m; sourceTree = "<group>"; };
+		12E91A581CF6F3BC008D3503 /* JDWindowContentPage.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JDWindowContentPage.xib; sourceTree = "<group>"; };
+		12E91A5B1CF6F659008D3503 /* JDSwitchPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDSwitchPage.h; sourceTree = "<group>"; };
+		12E91A5C1CF6F659008D3503 /* JDSwitchPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDSwitchPage.m; sourceTree = "<group>"; };
+		12E91A5D1CF6F659008D3503 /* JDSwitchPage.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JDSwitchPage.xib; sourceTree = "<group>"; };
+		12E91A601CF6F7D0008D3503 /* JDInPutBarPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDInPutBarPage.h; sourceTree = "<group>"; };
+		12E91A611CF6F7D0008D3503 /* JDInPutBarPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDInPutBarPage.m; sourceTree = "<group>"; };
+		12E91A621CF6F7D0008D3503 /* JDInPutBarPage.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JDInPutBarPage.xib; sourceTree = "<group>"; };
+		12E91A651CF6F988008D3503 /* JDAlertViewPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDAlertViewPage.h; sourceTree = "<group>"; };
+		12E91A661CF6F988008D3503 /* JDAlertViewPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDAlertViewPage.m; sourceTree = "<group>"; };
+		12E91A671CF6F988008D3503 /* JDAlertViewPage.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JDAlertViewPage.xib; sourceTree = "<group>"; };
+		12E91A6A1CF6FB7D008D3503 /* JDStarViewPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDStarViewPage.h; sourceTree = "<group>"; };
+		12E91A6B1CF6FB7D008D3503 /* JDStarViewPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDStarViewPage.m; sourceTree = "<group>"; };
+		12E91A6C1CF6FB7D008D3503 /* JDStarViewPage.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JDStarViewPage.xib; sourceTree = "<group>"; };
+		12E91A6F1CF6FD8B008D3503 /* JDFaceViewPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDFaceViewPage.h; sourceTree = "<group>"; };
+		12E91A701CF6FD8B008D3503 /* JDFaceViewPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDFaceViewPage.m; sourceTree = "<group>"; };
+		12E91A711CF6FD8B008D3503 /* JDFaceViewPage.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JDFaceViewPage.xib; sourceTree = "<group>"; };
+		12E91A741CF6FFD1008D3503 /* JDSliderViewPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDSliderViewPage.h; sourceTree = "<group>"; };
+		12E91A751CF6FFD1008D3503 /* JDSliderViewPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDSliderViewPage.m; sourceTree = "<group>"; };
+		12E91A761CF6FFD1008D3503 /* JDSliderViewPage.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JDSliderViewPage.xib; sourceTree = "<group>"; };
+		12E91A791CF6FFFF008D3503 /* JDExpandingTextViewPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDExpandingTextViewPage.h; sourceTree = "<group>"; };
+		12E91A7A1CF6FFFF008D3503 /* JDExpandingTextViewPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDExpandingTextViewPage.m; sourceTree = "<group>"; };
+		12E91A7B1CF6FFFF008D3503 /* JDExpandingTextViewPage.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JDExpandingTextViewPage.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1224DD1F1CF6D59D005A488C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1224DD621CF6D6B5005A488C /* JDragonFrameWork.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1224DD3B1CF6D59D005A488C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1224DD461CF6D59D005A488C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1224DD191CF6D59D005A488C = {
+			isa = PBXGroup;
+			children = (
+				1224DD241CF6D59D005A488C /* JDragonFrameWorkDemo */,
+				1224DD411CF6D59D005A488C /* JDragonFrameWorkDemoTests */,
+				1224DD4C1CF6D59D005A488C /* JDragonFrameWorkDemoUITests */,
+				1224DD231CF6D59D005A488C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1224DD231CF6D59D005A488C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1224DD221CF6D59D005A488C /* JDragonFrameWorkDemo.app */,
+				1224DD3E1CF6D59D005A488C /* JDragonFrameWorkDemoTests.xctest */,
+				1224DD491CF6D59D005A488C /* JDragonFrameWorkDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1224DD241CF6D59D005A488C /* JDragonFrameWorkDemo */ = {
+			isa = PBXGroup;
+			children = (
+				1224DD601CF6D6B5005A488C /* Frame */,
+				1224DD631CF6D7AF005A488C /* PrefixHeader.pch */,
+				1224DD281CF6D59D005A488C /* AppDelegate.h */,
+				1224DD291CF6D59D005A488C /* AppDelegate.m */,
+				1224DD311CF6D59D005A488C /* Main.storyboard */,
+				12A51BBE1CF6DD01003C1CBD /* Home */,
+				12A51BC11CF6DD01003C1CBD /* Mine */,
+				1224DD341CF6D59D005A488C /* Assets.xcassets */,
+				1224DD361CF6D59D005A488C /* LaunchScreen.storyboard */,
+				1224DD391CF6D59D005A488C /* Info.plist */,
+				1224DD251CF6D59D005A488C /* Supporting Files */,
+			);
+			path = JDragonFrameWorkDemo;
+			sourceTree = "<group>";
+		};
+		1224DD251CF6D59D005A488C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1224DD261CF6D59D005A488C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1224DD411CF6D59D005A488C /* JDragonFrameWorkDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				1224DD421CF6D59D005A488C /* JDragonFrameWorkDemoTests.m */,
+				1224DD441CF6D59D005A488C /* Info.plist */,
+			);
+			path = JDragonFrameWorkDemoTests;
+			sourceTree = "<group>";
+		};
+		1224DD4C1CF6D59D005A488C /* JDragonFrameWorkDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1224DD4D1CF6D59D005A488C /* JDragonFrameWorkDemoUITests.m */,
+				1224DD4F1CF6D59D005A488C /* Info.plist */,
+			);
+			path = JDragonFrameWorkDemoUITests;
+			sourceTree = "<group>";
+		};
+		1224DD601CF6D6B5005A488C /* Frame */ = {
+			isa = PBXGroup;
+			children = (
+				1224DD611CF6D6B5005A488C /* JDragonFrameWork.framework */,
+			);
+			path = Frame;
+			sourceTree = "<group>";
+		};
+		12A51BBE1CF6DD01003C1CBD /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				12A51BBF1CF6DD01003C1CBD /* FirstViewController.h */,
+				12A51BC01CF6DD01003C1CBD /* FirstViewController.m */,
+				12A51BC61CF6DD2F003C1CBD /* JDBannerPage.h */,
+				12A51BC71CF6DD2F003C1CBD /* JDBannerPage.m */,
+				12A51BC81CF6DD2F003C1CBD /* JDBannerPage.xib */,
+				12A51BCB1CF6E15E003C1CBD /* JDCustompage.h */,
+				12A51BCC1CF6E15E003C1CBD /* JDCustompage.m */,
+				12A51BCD1CF6E15E003C1CBD /* JDCustompage.xib */,
+				12A51BD01CF6E5A9003C1CBD /* JDHeaderBtnPage.h */,
+				12A51BD11CF6E5A9003C1CBD /* JDHeaderBtnPage.m */,
+				12A51BD21CF6E5A9003C1CBD /* JDHeaderBtnPage.xib */,
+				12E91A511CF6F264008D3503 /* JDTypeButtonPage.h */,
+				12E91A521CF6F264008D3503 /* JDTypeButtonPage.m */,
+				12E91A531CF6F264008D3503 /* JDTypeButtonPage.xib */,
+				12E91A561CF6F3BC008D3503 /* JDWindowContentPage.h */,
+				12E91A571CF6F3BC008D3503 /* JDWindowContentPage.m */,
+				12E91A581CF6F3BC008D3503 /* JDWindowContentPage.xib */,
+				12E91A5B1CF6F659008D3503 /* JDSwitchPage.h */,
+				12E91A5C1CF6F659008D3503 /* JDSwitchPage.m */,
+				12E91A5D1CF6F659008D3503 /* JDSwitchPage.xib */,
+				12E91A601CF6F7D0008D3503 /* JDInPutBarPage.h */,
+				12E91A611CF6F7D0008D3503 /* JDInPutBarPage.m */,
+				12E91A621CF6F7D0008D3503 /* JDInPutBarPage.xib */,
+				12E91A651CF6F988008D3503 /* JDAlertViewPage.h */,
+				12E91A661CF6F988008D3503 /* JDAlertViewPage.m */,
+				12E91A671CF6F988008D3503 /* JDAlertViewPage.xib */,
+				12E91A6A1CF6FB7D008D3503 /* JDStarViewPage.h */,
+				12E91A6B1CF6FB7D008D3503 /* JDStarViewPage.m */,
+				12E91A6C1CF6FB7D008D3503 /* JDStarViewPage.xib */,
+				12E91A6F1CF6FD8B008D3503 /* JDFaceViewPage.h */,
+				12E91A701CF6FD8B008D3503 /* JDFaceViewPage.m */,
+				12E91A711CF6FD8B008D3503 /* JDFaceViewPage.xib */,
+				12E91A741CF6FFD1008D3503 /* JDSliderViewPage.h */,
+				12E91A751CF6FFD1008D3503 /* JDSliderViewPage.m */,
+				12E91A761CF6FFD1008D3503 /* JDSliderViewPage.xib */,
+				12E91A791CF6FFFF008D3503 /* JDExpandingTextViewPage.h */,
+				12E91A7A1CF6FFFF008D3503 /* JDExpandingTextViewPage.m */,
+				12E91A7B1CF6FFFF008D3503 /* JDExpandingTextViewPage.xib */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		12A51BC11CF6DD01003C1CBD /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				12A51BC21CF6DD01003C1CBD /* SecondViewController.h */,
+				12A51BC31CF6DD01003C1CBD /* SecondViewController.m */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1224DD211CF6D59D005A488C /* JDragonFrameWorkDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1224DD521CF6D59D005A488C /* Build configuration list for PBXNativeTarget "JDragonFrameWorkDemo" */;
+			buildPhases = (
+				1224DD1E1CF6D59D005A488C /* Sources */,
+				1224DD1F1CF6D59D005A488C /* Frameworks */,
+				1224DD201CF6D59D005A488C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JDragonFrameWorkDemo;
+			productName = JDragonFrameWorkDemo;
+			productReference = 1224DD221CF6D59D005A488C /* JDragonFrameWorkDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1224DD3D1CF6D59D005A488C /* JDragonFrameWorkDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1224DD551CF6D59D005A488C /* Build configuration list for PBXNativeTarget "JDragonFrameWorkDemoTests" */;
+			buildPhases = (
+				1224DD3A1CF6D59D005A488C /* Sources */,
+				1224DD3B1CF6D59D005A488C /* Frameworks */,
+				1224DD3C1CF6D59D005A488C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1224DD401CF6D59D005A488C /* PBXTargetDependency */,
+			);
+			name = JDragonFrameWorkDemoTests;
+			productName = JDragonFrameWorkDemoTests;
+			productReference = 1224DD3E1CF6D59D005A488C /* JDragonFrameWorkDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1224DD481CF6D59D005A488C /* JDragonFrameWorkDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1224DD581CF6D59D005A488C /* Build configuration list for PBXNativeTarget "JDragonFrameWorkDemoUITests" */;
+			buildPhases = (
+				1224DD451CF6D59D005A488C /* Sources */,
+				1224DD461CF6D59D005A488C /* Frameworks */,
+				1224DD471CF6D59D005A488C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1224DD4B1CF6D59D005A488C /* PBXTargetDependency */,
+			);
+			name = JDragonFrameWorkDemoUITests;
+			productName = JDragonFrameWorkDemoUITests;
+			productReference = 1224DD491CF6D59D005A488C /* JDragonFrameWorkDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1224DD1A1CF6D59D005A488C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = JDragon;
+				TargetAttributes = {
+					1224DD211CF6D59D005A488C = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					1224DD3D1CF6D59D005A488C = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 1224DD211CF6D59D005A488C;
+					};
+					1224DD481CF6D59D005A488C = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 1224DD211CF6D59D005A488C;
+					};
+				};
+			};
+			buildConfigurationList = 1224DD1D1CF6D59D005A488C /* Build configuration list for PBXProject "JDragonFrameWorkDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1224DD191CF6D59D005A488C;
+			productRefGroup = 1224DD231CF6D59D005A488C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1224DD211CF6D59D005A488C /* JDragonFrameWorkDemo */,
+				1224DD3D1CF6D59D005A488C /* JDragonFrameWorkDemoTests */,
+				1224DD481CF6D59D005A488C /* JDragonFrameWorkDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1224DD201CF6D59D005A488C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12E91A781CF6FFD1008D3503 /* JDSliderViewPage.xib in Resources */,
+				12A51BD41CF6E5A9003C1CBD /* JDHeaderBtnPage.xib in Resources */,
+				12A51BCF1CF6E15E003C1CBD /* JDCustompage.xib in Resources */,
+				12E91A7D1CF6FFFF008D3503 /* JDExpandingTextViewPage.xib in Resources */,
+				12E91A5F1CF6F659008D3503 /* JDSwitchPage.xib in Resources */,
+				1224DD381CF6D59D005A488C /* LaunchScreen.storyboard in Resources */,
+				1224DD351CF6D59D005A488C /* Assets.xcassets in Resources */,
+				12E91A641CF6F7D0008D3503 /* JDInPutBarPage.xib in Resources */,
+				12E91A691CF6F988008D3503 /* JDAlertViewPage.xib in Resources */,
+				12E91A6E1CF6FB7D008D3503 /* JDStarViewPage.xib in Resources */,
+				12E91A551CF6F264008D3503 /* JDTypeButtonPage.xib in Resources */,
+				12E91A731CF6FD8B008D3503 /* JDFaceViewPage.xib in Resources */,
+				12A51BCA1CF6DD2F003C1CBD /* JDBannerPage.xib in Resources */,
+				12E91A5A1CF6F3BC008D3503 /* JDWindowContentPage.xib in Resources */,
+				1224DD331CF6D59D005A488C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1224DD3C1CF6D59D005A488C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1224DD471CF6D59D005A488C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1224DD1E1CF6D59D005A488C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12E91A591CF6F3BC008D3503 /* JDWindowContentPage.m in Sources */,
+				12A51BC51CF6DD01003C1CBD /* SecondViewController.m in Sources */,
+				12E91A5E1CF6F659008D3503 /* JDSwitchPage.m in Sources */,
+				12A51BCE1CF6E15E003C1CBD /* JDCustompage.m in Sources */,
+				1224DD2A1CF6D59D005A488C /* AppDelegate.m in Sources */,
+				12A51BD31CF6E5A9003C1CBD /* JDHeaderBtnPage.m in Sources */,
+				12A51BC41CF6DD01003C1CBD /* FirstViewController.m in Sources */,
+				12E91A6D1CF6FB7D008D3503 /* JDStarViewPage.m in Sources */,
+				12A51BC91CF6DD2F003C1CBD /* JDBannerPage.m in Sources */,
+				12E91A541CF6F264008D3503 /* JDTypeButtonPage.m in Sources */,
+				12E91A721CF6FD8B008D3503 /* JDFaceViewPage.m in Sources */,
+				12E91A631CF6F7D0008D3503 /* JDInPutBarPage.m in Sources */,
+				12E91A681CF6F988008D3503 /* JDAlertViewPage.m in Sources */,
+				12E91A7C1CF6FFFF008D3503 /* JDExpandingTextViewPage.m in Sources */,
+				12E91A771CF6FFD1008D3503 /* JDSliderViewPage.m in Sources */,
+				1224DD271CF6D59D005A488C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1224DD3A1CF6D59D005A488C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1224DD431CF6D59D005A488C /* JDragonFrameWorkDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1224DD451CF6D59D005A488C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1224DD4E1CF6D59D005A488C /* JDragonFrameWorkDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1224DD401CF6D59D005A488C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1224DD211CF6D59D005A488C /* JDragonFrameWorkDemo */;
+			targetProxy = 1224DD3F1CF6D59D005A488C /* PBXContainerItemProxy */;
+		};
+		1224DD4B1CF6D59D005A488C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1224DD211CF6D59D005A488C /* JDragonFrameWorkDemo */;
+			targetProxy = 1224DD4A1CF6D59D005A488C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1224DD311CF6D59D005A488C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1224DD321CF6D59D005A488C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1224DD361CF6D59D005A488C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1224DD371CF6D59D005A488C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1224DD501CF6D59D005A488C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1224DD511CF6D59D005A488C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1224DD531CF6D59D005A488C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/JDragonFrameWorkDemo",
+					"$(PROJECT_DIR)/JDragonFrameWorkDemo/Frame",
+				);
+				GCC_PREFIX_HEADER = "$(SRCROOT)/JDragonFrameWorkDemo/PrefixHeader.pch";
+				INFOPLIST_FILE = JDragonFrameWorkDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ledoing.cn.JDragonFrameWorkDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1224DD541CF6D59D005A488C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/JDragonFrameWorkDemo",
+					"$(PROJECT_DIR)/JDragonFrameWorkDemo/Frame",
+				);
+				GCC_PREFIX_HEADER = "$(SRCROOT)/JDragonFrameWorkDemo/PrefixHeader.pch";
+				INFOPLIST_FILE = JDragonFrameWorkDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ledoing.cn.JDragonFrameWorkDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1224DD561CF6D59D005A488C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JDragonFrameWorkDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ledoing.cn.JDragonFrameWorkDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JDragonFrameWorkDemo.app/JDragonFrameWorkDemo";
+			};
+			name = Debug;
+		};
+		1224DD571CF6D59D005A488C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JDragonFrameWorkDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ledoing.cn.JDragonFrameWorkDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JDragonFrameWorkDemo.app/JDragonFrameWorkDemo";
+			};
+			name = Release;
+		};
+		1224DD591CF6D59D005A488C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JDragonFrameWorkDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ledoing.cn.JDragonFrameWorkDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JDragonFrameWorkDemo;
+			};
+			name = Debug;
+		};
+		1224DD5A1CF6D59D005A488C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JDragonFrameWorkDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ledoing.cn.JDragonFrameWorkDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JDragonFrameWorkDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1224DD1D1CF6D59D005A488C /* Build configuration list for PBXProject "JDragonFrameWorkDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1224DD501CF6D59D005A488C /* Debug */,
+				1224DD511CF6D59D005A488C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1224DD521CF6D59D005A488C /* Build configuration list for PBXNativeTarget "JDragonFrameWorkDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1224DD531CF6D59D005A488C /* Debug */,
+				1224DD541CF6D59D005A488C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1224DD551CF6D59D005A488C /* Build configuration list for PBXNativeTarget "JDragonFrameWorkDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1224DD561CF6D59D005A488C /* Debug */,
+				1224DD571CF6D59D005A488C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1224DD581CF6D59D005A488C /* Build configuration list for PBXNativeTarget "JDragonFrameWorkDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1224DD591CF6D59D005A488C /* Debug */,
+				1224DD5A1CF6D59D005A488C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1224DD1A1CF6D59D005A488C /* Project object */;
+}
